@@ -9,7 +9,7 @@ packages = [{include = "block_signal_generator"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-yaramo = {git = "https://github.com/antonykamp/yaramo", branch="refactor/replace-connected-nodes-with-edges"}
+yaramo = {git = "https://github.com/BP2022-AP1/yaramo", branch="refactor/replace-connected-nodes-with-edges"}
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.12.0"
